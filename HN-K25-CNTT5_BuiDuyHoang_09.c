@@ -146,9 +146,12 @@ int main(){
 				}
 				break;
 				printf("\n");
+			case 11:
+				printf("Ket thuc chuong trinh !\n");
+				break;
 			default:
 				printf("Lua chon khong thoa man !");
 		}
-	}while(chon != 0);
+	}while(chon != 11);
 	return 0;
 }
